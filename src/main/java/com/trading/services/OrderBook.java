@@ -2,10 +2,8 @@ package com.trading.services;
 import com.trading.models.Order;
 
 import java.util.PriorityQueue;
-import com.trading.models.Order;
 import com.trading.models.OrderStatus;
 import com.trading.models.OrderType;
-import java.util.PriorityQueue;
 
 public class OrderBook {
     private final String symbol;
@@ -45,7 +43,7 @@ public class OrderBook {
             if ((newOrder.getOrderType() == OrderType.BUY && newOrder.getPrice() >= topOrder.getPrice())
                     || (newOrder.getOrderType() == OrderType.SELL && newOrder.getPrice() <= topOrder.getPrice())) {
                 int tradedQty = Math.min(newOrder.getQuantity(), topOrder.getQuantity());
-                // Record the trade (omitted for brevity)
+                // TODO: Record the trade
                 newOrder.setQuantity(newOrder.getQuantity() - tradedQty);
                 topOrder.setQuantity(topOrder.getQuantity() - tradedQty);
                 if (topOrder.getQuantity() == 0) {
@@ -62,5 +60,10 @@ public class OrderBook {
 
     public PriorityQueue<Order> getBuyOrders() {
         return buyOrders;
+    }
+
+    public void flush() {
+        buyOrders.clear();
+        sellOrders.clear();
     }
 }

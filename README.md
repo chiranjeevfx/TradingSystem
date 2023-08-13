@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # TradingSystem
-TradingSystem
-=======
-# My Java Project
 
 This is a Java project that simulates a in memory trading system
 
@@ -28,4 +24,7 @@ This is a Java project that simulates a in memory trading system
 
 3. Run the project from the IDE.
 
->>>>>>> 47a9ac1 (initial commit)
+Note that this is a very basic order matching system. 
+There are many potential optimizations and features we could add, 
+such as time priority, partial fills, market orders, etc.
+
