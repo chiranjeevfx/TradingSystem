@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d280f51e-9c40-42fd-88fe-37deea3c5418" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trading/utils/TradeMatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trading/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trading/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trading/models/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trading/models/OrderStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/trading/models/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trading/models/Trade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/trading/services/OrderBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trading/services/OrderBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/trading/services/TradeSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trading/services/TradeSystem.java" afterDir="false" />

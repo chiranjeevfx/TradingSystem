@@ -59,5 +59,9 @@ public class Order {
         this.status = status;
     }
 
+    public String getUserId() {
+        return userId;
+    }
+
 
 }
