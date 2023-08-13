@@ -78,11 +78,4 @@ public class TradeSystem {
             orderBooks.get(order.getSymbol()).modifyOrderQuantity(order, newQuantity);
         }
     }
-
-
-
-
-
-
-    // Additional methods can be added for order cancellation, fetching user orders, etc.
 }
